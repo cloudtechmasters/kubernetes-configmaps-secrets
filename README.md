@@ -1,7 +1,7 @@
 # kubernetes-configmaps-secrets
 
 # Pre-Requisites:
-    * EKS-Cluster
+    EKS-Cluster
 # Encrypt password by using below command
     echo -n "admin123" | base64
 # Deploy mysql using below commands
