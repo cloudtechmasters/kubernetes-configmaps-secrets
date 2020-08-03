@@ -9,7 +9,7 @@
     kubectl apply -f mysql-secrets.yaml
     kubectl apply -f mysql-secrets-deployment.yaml
     kubectl apply -f mysql-service.yaml
-# Connect to pod and check weather mysql is working or not   
+# Connect to pod and check whether mysql is working or not   
     kubectl get pods
     kubectl exec -it mysql-deployment-66b46c88f6-gcmjv -- /bin/bash
     mysql -u root -p
@@ -19,7 +19,7 @@ Give password as "admin123"
 # Deploy mysql using below commands    
     kubectl apply -f mysql-configmaps.yaml
     kubectl apply -f mysql-config-deployment.yaml
-# Connect to pod and check weather mysql is working or not    
+# Connect to pod and check whether mysql is working or not    
     kubectl get pods
     kubectl exec -it mysql-config-deployment-578bd76498-ncwll -- /bin/bash
     mysql -u root -p
